@@ -1,0 +1,10 @@
+# Pyrefly configuration
+# Points to the project virtualenv so all installed packages are found
+
+[project]
+python_environment = "venv"
+
+[check]
+# Suppress missing-import errors (packages are in venv, not system Python)
+ignore_missing_imports = true
+ignore_missing_source = true

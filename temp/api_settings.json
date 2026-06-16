@@ -1,0 +1,6 @@
+{
+  "ai_backend": "groq",
+  "ai_model": "llama-3.3-70b-versatile",
+  "groq_api_key": "",
+  "openai_api_key": ""
+}
